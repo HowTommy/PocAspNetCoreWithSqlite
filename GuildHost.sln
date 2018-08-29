@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildHost", "GuildHost\GuildHost.csproj", "{25E22FD5-AC82-4BF0-9667-B9E91C036954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E22FD5-AC82-4BF0-9667-B9E91C036954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E22FD5-AC82-4BF0-9667-B9E91C036954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E22FD5-AC82-4BF0-9667-B9E91C036954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E22FD5-AC82-4BF0-9667-B9E91C036954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {113EF22C-E92B-4C59-B0FF-1C5D8C01C2EB}
+	EndGlobalSection
+EndGlobal

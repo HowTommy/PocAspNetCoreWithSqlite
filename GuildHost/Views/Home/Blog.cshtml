@@ -1,0 +1,20 @@
+﻿@model IEnumerable<GuildHost.SQLite.Post>
+
+@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Blog</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@foreach(var post in Model)
+{
+    <div style="margin: 10px; padding: 10px;">
+        <h3>@post.Title</h3>
+        <p>@post.Content</p>
+    </div>
+}

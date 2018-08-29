@@ -1,0 +1,17 @@
+﻿@model IEnumerable<GuildHost.SQLite.Blog>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Blogs</h2>
+        <ul>
+            @foreach(var blog in Model)
+            {
+                <li><a href="@Url.Action("Blog", "Home", new { id = blog.BlogId })">@blog.Url</a></li>
+            }
+        </ul>
+    </div>
+</div>
